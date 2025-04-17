@@ -31,3 +31,16 @@ migrate_working_dir/
 .flutter-plugins
 .flutter-plugins-dependencies
 build/
+
+# Cubism SDK related
+# Doesn't include Samples or non-redistributable files.
+/CubismSdkForNative/Samples
+/CubismSdkForNative/Core/dll/harmonyos
+/CubismSdkForNative/Core/include
+/CubismSdkForNative/Core/lib/harmonyos
+# TODO - Check how articles 2.2, 5 and 6.8 interact for these specific files.
+# /CubismSdkForNative/Core/CHANGELOG.md
+# /CubismSdkForNative/Core/LICENSE.md
+# /CubismSdkForNative/Core/README.ja.md
+# /CubismSdkForNative/Core/README.md
+/CubismSdkForNative/Core/RedistributableFiles.txt
